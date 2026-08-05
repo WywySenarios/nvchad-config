@@ -14,6 +14,17 @@ M.base46 = {
 	-- },
 }
 
+require('telescope').setup {
+  defaults = {
+
+  },
+  pickers = {
+    find_files = {
+      hidden = true,
+    }
+  }
+}
+
 -- M.nvdash = { load_on_startup = true }
 -- M.ui = {
 --       tabufline = {
